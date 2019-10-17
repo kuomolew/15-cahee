@@ -1,3 +1,11 @@
+@import 'reset';
+@import 'variables-extends-mixins';
+@import 'header';
+@import 'about-us';
+
+
 body {
-    background-color: brown;
+    background-color: rgb(105, 131, 131);
+    font-family: $font-general;
+    color: $text-color-dark;
 }

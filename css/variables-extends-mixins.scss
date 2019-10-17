@@ -1,0 +1,37 @@
+$font-general: 'Raleway', sans-serif;
+$font-logo: 'Pacifico', cursive;
+
+$background-color-header: #f9f8fb;
+$background-color-about-us: #00b0b0;
+
+$text-color-dark: #262626;
+$text-color-light: #ffffff;
+
+
+$more-button-header-color: #ff6033;
+
+@mixin more-button($button-color) {
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: $button-color;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    a {
+        display: block;
+        height: 100%;
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@mixin white-header {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: .75;
+}

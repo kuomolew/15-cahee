@@ -1,2 +1,156 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  padding: 0;
+  margin: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-weight: normal;
+  font-style: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0; }
+
+html {
+  height: 100%; }
+
+header {
+  width: 100%;
+  height: 1000px;
+  background-color: #f9f8fb;
+  position: relative;
+  background-image: url("../img/background-header.png");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat; }
+  header .header-content {
+    max-width: 1172px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative; }
+    header .header-content nav {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 30px;
+      margin-top: 60px; }
+      header .header-content nav a {
+        text-decoration: none;
+        color: #262626; }
+      header .header-content nav #main-logo {
+        font-family: "Pacifico", cursive;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 25px;
+        padding-top: 5px; }
+      header .header-content nav ul {
+        display: flex;
+        justify-content: space-between;
+        width: 557px; }
+        header .header-content nav ul li {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 1.25;
+          text-transform: uppercase;
+          padding-top: 5px;
+          border-top: 3px #f9f8fb solid; }
+        header .header-content nav ul li:hover {
+          border-top: 3px #ff6033 solid; }
+    header .header-content .header-text {
+      position: absolute;
+      width: 370px;
+      margin-top: 370px; }
+      header .header-content .header-text h1 {
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 25px;
+        margin-bottom: 38px; }
+      header .header-content .header-text p {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-bottom: 30px; }
+      header .header-content .header-text .more-button {
+        width: 200px;
+        height: 55px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: #ff6033;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 55px;
+        text-transform: uppercase;
+        text-align: center; }
+        header .header-content .header-text .more-button a {
+          display: block;
+          height: 100%;
+          text-decoration: none;
+          color: #fff; }
+    header .header-content .scroll {
+      display: flex;
+      position: absolute;
+      width: 100%;
+      height: 40px;
+      margin-top: 890px;
+      justify-content: center; }
+
+.about-us {
+  width: 100%;
+  height: 700px;
+  background-color: #00b0b0;
+  position: relative; }
+  .about-us .about-us-container {
+    max-width: 1166px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between; }
+    .about-us .about-us-container .about-us-photo {
+      background-image: url("../img/about-us-bg.png");
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      width: 50%;
+      height: 566px;
+      margin-top: 70px; }
+    .about-us .about-us-container .about-us-content {
+      margin-top: 180px;
+      max-width: 500px;
+      width: 50%; }
+      .about-us .about-us-container .about-us-content h1 {
+        color: #ffffff;
+        font-size: 90px;
+        font-weight: 700;
+        line-height: .75;
+        margin-bottom: 27px; }
+      .about-us .about-us-container .about-us-content p {
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-bottom: 10px; }
+
 body {
-  background-color: brown; }
+  background-color: #698383;
+  font-family: "Raleway", sans-serif;
+  color: #262626; }

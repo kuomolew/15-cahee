@@ -32,7 +32,7 @@ abbr, acronym {
 html {
   height: 100%; }
 
-header .header-content .header-text .more-button a, .services .services-container .services-list ul li a, .gallery .gallery-images-line1 a, .gallery .gallery-images-line2 a, .gallery .more-button a, .subscribe .subscribe-content button a {
+header .header-content .header-text .more-button a, .services .services-container .services-list ul li a, .gallery .gallery-images-line1 a, .gallery .gallery-images-line2 a, .gallery .more-button a, .subscribe .subscribe-content button a, .blog .more-button a {
   display: block;
   height: 100%;
   text-decoration: none; }
@@ -366,8 +366,21 @@ header {
     grid-template-rows: 310px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px; }
-    .blog .blog-examples div[class*="blog-example"] {
-      background-color: red; }
+    .blog .blog-examples .blog-example1 {
+      background-image: url("../img/blog-bg1.png");
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: bottom; }
+    .blog .blog-examples .blog-example2 {
+      background-image: url("../img/blog-bg2.png");
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: bottom; }
+    .blog .blog-examples .blog-example3 {
+      background-image: url("../img/blog-bg3.png");
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: bottom; }
     .blog .blog-examples .blog-calendar {
       margin: 30px 0 0 30px;
       width: 60px;
@@ -379,13 +392,143 @@ header {
       font-size: 32px;
       font-weight: 700;
       line-height: 30px;
-      text-align: center;
-      color: red; }
+      text-align: center; }
       .blog .blog-examples .blog-calendar span {
         line-height: 15px;
         font-size: 21px;
         font-weight: 900;
         text-transform: uppercase; }
+    .blog .blog-examples h2 {
+      line-height: 25px;
+      font-weight: 700;
+      font-size: 20px;
+      padding: 115px 0 17px 20px; }
+    .blog .blog-examples p {
+      font-size: 13px;
+      font-weight: 300;
+      padding-left: 20px; }
+    .blog .blog-examples a {
+      color: #ffffff;
+      text-decoration: none; }
+  .blog .more-button {
+    margin: 50px auto 0 auto;
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: center; }
+    .blog .more-button a {
+      color: #fff; }
+
+.contact {
+  width: 100%;
+  height: 866px;
+  background-color: #6ea9ce;
+  background-image: url("../img/contact-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  .contact .contact-text {
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 42px;
+    text-align: center; }
+    .contact .contact-text h1 {
+      color: #262626;
+      font-size: 90px;
+      font-weight: 700;
+      line-height: .75;
+      padding-bottom: 42px; }
+    .contact .contact-text p {
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 25px; }
+  .contact .contact-form {
+    max-width: 1170px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .contact .contact-form form {
+      width: 500px; }
+      .contact .contact-form form p {
+        width: 500px;
+        height: 50px;
+        background-color: #00c4c4;
+        box-sizing: border-box;
+        border-left: 5px solid #355b82;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 50px;
+        padding-left: 15px;
+        color: #ffffff;
+        margin-bottom: 15px; }
+      .contact .contact-form form input {
+        width: 500px;
+        height: 50px;
+        background-color: #00c4c4;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        padding-left: 20px;
+        opacity: 0.5;
+        border: none; }
+      .contact .contact-form form input::placeholder {
+        font-size: 15px;
+        font-weight: 300;
+        color: #ffffff; }
+      .contact .contact-form form textarea {
+        width: 500px;
+        height: 250px;
+        background-color: #00c4c4;
+        box-sizing: border-box;
+        opacity: 0.5;
+        border: none; }
+      .contact .contact-form form textarea::placeholder {
+        font-size: 15px;
+        font-weight: 300;
+        color: #ffffff; }
+    .contact .contact-form .contact-info {
+      width: 320px;
+      margin-right: 180px; }
+      .contact .contact-form .contact-info h2 {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 0.75;
+        margin-bottom: 5px;
+        text-transform: uppercase; }
+      .contact .contact-form .contact-info p {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20px; }
+
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: #262626; }
+  footer ul {
+    max-width: 1172px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    color: #b9b9b9;
+    justify-content: space-between;
+    line-height: 90px; }
+    footer ul li {
+      display: flex;
+      align-items: center;
+      align-content: center; }
+      footer ul li span {
+        color: #ff2b58;
+        font-weight: 700; }
+    footer ul .footer-logo {
+      font-family: "Pacifico", cursive;
+      font-size: 25px;
+      font-weight: 400; }
 
 body {
   background-color: #698383;

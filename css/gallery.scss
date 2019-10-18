@@ -54,24 +54,10 @@
         }
     }
 
-    .gallery-img1 {
-        background-image: url(../img/img1.jpg);
-    }
-
-    .gallery-img2 {
-        background-image: url(../img/img2.jpg);
-    }
-
-    .gallery-img3 {
-        background-image: url(../img/img3.jpg);
-    }
-
-    .gallery-img4 {
-        background-image: url(../img/img4.jpg);
-    }
-
-    .gallery-img5 {
-        background-image: url(../img/img5.jpg);
+    @for $i from 1 through 5 {
+        .gallery-img#{$i} {
+            background-image: url(../img/img#{$i}.jpg);
+        }
     }
 
     .more-button {

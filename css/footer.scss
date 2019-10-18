@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: $background-color-footer;
+
+    ul {
+        max-width: 1500 - 164*2px;
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        color: $text-color-footer;
+        justify-content: space-between;
+        line-height: 90px;
+
+        li {
+            display: flex;
+            align-items: center;
+            align-content: center;
+
+            span {
+                color:#ff2b58;
+                font-weight: 700;
+            }
+        }
+
+        .footer-logo {
+            font-family: $font-logo;
+            font-size: 25px;
+            font-weight: 400;
+        }
+    }
+
+}

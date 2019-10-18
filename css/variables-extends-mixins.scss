@@ -5,6 +5,8 @@ $background-color-header: #f9f8fb;
 $background-color-about-us: #00b0b0;
 $background-color-services: #70bfff;
 $background-color-gallery: #ffe92f;
+$background-color-subscribe: #ffffff;
+$background-color-blog: #b07cf7;
 
 $text-color-dark: #262626;
 $text-color-light: #ffffff;
@@ -12,13 +14,18 @@ $text-color-light: #ffffff;
 
 $more-button-header-color: #ff6033;
 $more-button-gallery-color: #5585a2;
+$subscribe-button-color: #96b92c;
 
+
+//making link available in all div
 %link-in-box {
     display: block;
     height: 100%;
     text-decoration: none;
 }
 
+
+//styling of buttons
 @mixin more-button($button-color) {
     width: 200px;
     height: 55px;
@@ -36,6 +43,7 @@ $more-button-gallery-color: #5585a2;
     }
 }
 
+//styling of h1 in different sections
 @mixin header($color) {
     color: $color;
     font-size: 90px;

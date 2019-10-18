@@ -1,0 +1,55 @@
+.subscribe {
+    height: 500px;
+    width: 100%;
+    background-color: $background-color-subscribe;
+    background-image: url('../img/subscribe-bg.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    .subscribe-content {
+        max-width: 1500 - 164*2px;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 27px;
+            padding-top: 145px;
+            padding-bottom: 30px;
+            
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 27px;
+            max-width: 550px;
+            padding-bottom: 23px;
+        }
+
+        input {
+            width: 570px;
+            height: 55px;
+            box-sizing: border-box;
+            border: 1px solid #262626;
+            padding-left: 15px;
+        }
+
+        input::placeholder {
+            opacity: 0.5;
+            color: $text-color-dark;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 27px;
+        }
+
+        button {
+            border: none;
+            @include more-button($subscribe-button-color);
+            width: 170px;
+            color: $text-color-light;
+            margin-left: 30px;
+        }
+    }
+}

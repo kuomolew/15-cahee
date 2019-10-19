@@ -1,5 +1,6 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
+var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task("compile", () => {
   return gulp.src("./css/style.scss")
@@ -7,6 +8,17 @@ gulp.task("compile", () => {
     .pipe(gulp.dest((file) => {
       return file.base;
     }));
+});
+
+gulp.task('autoprefix', function () {
+  return gulp.src('./css/*.css')
+      .pipe(autoprefixer({
+        overrideBrowserslist: ['last 4 version'],
+          cascade: true
+      }))
+      .pipe(gulp.dest((file) => {
+        return file.base;
+      }));
 });
 
 gulp.task("watch", () => {

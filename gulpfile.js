@@ -15,7 +15,7 @@ gulp.task('autoprefix', function () {
   return gulp.src('./css/*.css')
       .pipe(autoprefixer({
         overrideBrowserslist: ['last 4 version'],
-          cascade: true
+          cascade: false
       }))
       .pipe(gulp.dest((file) => {
         return file.base;

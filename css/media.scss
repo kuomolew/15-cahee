@@ -227,12 +227,18 @@
     
     .gallery {
 
-        .gallery-text h1 {
-            font-size: 3rem;
+        .gallery-text {
+            padding-top: 42px;
+
+            h1 {
+                font-size: 3rem;
+            }
         }
+        
+        
 
         .gallery-images {
-            grid-template-rows: repeat(5, 150px);
+            grid-template-rows: repeat(5, 185px);
             grid-template-columns: 1fr;
 
             .gallery-img1,

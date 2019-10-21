@@ -10,7 +10,10 @@
 @import 'footer';
 
 
+
 body {
     font-family: $font-general;
     color: $text-color-dark;
 }
+
+@import 'media';

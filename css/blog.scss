@@ -5,7 +5,8 @@
 
     .blog-content {
         margin: 0 auto;
-        width: 570px;
+        max-width: 570px;
+        width: 90%;
         text-align: center;
         padding-top: 101px;
         padding-bottom: 44px;
@@ -16,14 +17,15 @@
 
         p {
             color: $text-color-light;
-            font-size: 17px;
+            font-size: 1.0625rem;
             font-weight: 300;
-            line-height: 25px;
+            line-height: 1.47;
         }
     }
 
     .blog-examples {
         max-width: 1500 - 165*2px;
+        width: 90%;
         display: grid;
         margin: 0 auto;
         grid-template-rows: 310px;
@@ -60,28 +62,28 @@
             background-color: $text-color-dark;
             opacity: 0.5;
             color: $text-color-light;
-            font-size: 32px;
+            font-size: 2rem;
             font-weight: 700;
             line-height: 30px;
             text-align: center;
 
             span {
                 line-height: 15px;
-                font-size: 21px;
+                font-size: 1.3125rem;
                 font-weight: 900;
                 text-transform: uppercase;
             }
         }
 
         h2 {
-            line-height: 25px;
+            line-height: 1.2;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 1.25rem;
             padding: 115px 0 17px 20px;
         }
 
         p {
-            font-size: 13px;
+            font-size: 0.8125rem;
             font-weight: 300;
             padding-left: 20px;
         }

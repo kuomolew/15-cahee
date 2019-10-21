@@ -226,7 +226,6 @@
     }
     
     .gallery {
-        // height: 1536px;
 
         .gallery-text h1 {
             font-size: 3rem;
@@ -245,34 +244,27 @@
             }
         }
     } 
-    
-    
 
-
-    body {
-        color: red;
-    }
-
-    .about-us {
-        background-color: red;
+    .subscribe .subscribe-content h1 {
+        font-size: 1rem;
+        padding-top: 42px;
     }
 
     .blog {
-        background-color: red;
+        height: 1550px;
+
     }
+
+    .contact {
+        .contact-text h1 {
+            font-size: 3rem;
+        }
+
+        .contact-form .contact-info {
+            padding-left: 0;
+        }
+    }
+    
+    
 }
 
-
-// @media screen and (min-width: 577px) {
-//     body {
-//         color: blue;
-//     }
-
-//     .about-us {
-//         background-color: blue;
-//     }
-
-//     .blog {
-//         background-color: blue;
-//     }
-// }

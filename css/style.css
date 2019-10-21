@@ -608,7 +608,8 @@ header .header-content .scroll {
 }
 
 .contact .contact-text {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 42px;
@@ -977,15 +978,20 @@ body {
         grid-column: 1 / span 1;
     }
 
-    body {
-        color: red;
-    }
-
-    .about-us {
-        background-color: red;
+    .subscribe .subscribe-content h1 {
+        font-size: 1rem;
+        padding-top: 42px;
     }
 
     .blog {
-        background-color: red;
+        height: 1550px;
+    }
+
+    .contact .contact-text h1 {
+        font-size: 3rem;
+    }
+
+    .contact .contact-form .contact-info {
+        padding-left: 0;
     }
 }

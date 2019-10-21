@@ -51,7 +51,7 @@ $more-button-blog-color: #f72b3b;
 //styling of h1 in different sections
 @mixin header($color) {
     color: $color;
-    font-size: 90px;
+    font-size: 5.625rem;
     font-weight: 700;
     line-height: .75;
 }

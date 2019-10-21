@@ -56,12 +56,13 @@ header {
 
         .header-text {
             max-width: 370px;
+            width: 100%;
             padding-top: 370px;
             
             h1 {
                 font-size: 60px;
                 font-weight: 900;
-                line-height: 25px;
+                line-height: .75;
                 margin-bottom: 38px;
             }
 

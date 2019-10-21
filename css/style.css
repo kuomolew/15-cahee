@@ -110,13 +110,14 @@ header .header-content nav ul li:hover {
 
 header .header-content .header-text {
     max-width: 370px;
+    width: 100%;
     padding-top: 370px;
 }
 
 header .header-content .header-text h1 {
     font-size: 60px;
     font-weight: 900;
-    line-height: 25px;
+    line-height: .75;
     margin-bottom: 38px;
 }
 
@@ -156,7 +157,6 @@ header .header-content .scroll {
     width: 100%;
     height: 700px;
     background-color: #00b0b0;
-    position: relative;
 }
 
 .about-us .about-us-container {
@@ -164,7 +164,6 @@ header .header-content .scroll {
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -186,7 +185,7 @@ header .header-content .scroll {
 
 .about-us .about-us-container .about-us-content h1 {
     color: #ffffff;
-    font-size: 90px;
+    font-size: 5.625rem;
     font-weight: 700;
     line-height: .75;
     margin-bottom: 27px;
@@ -194,9 +193,9 @@ header .header-content .scroll {
 
 .about-us .about-us-container .about-us-content p {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 300;
-    line-height: 27px;
+    line-height: 1.6;
     margin-bottom: 10px;
 }
 
@@ -287,7 +286,7 @@ header .header-content .scroll {
 
 .services .services-container .services-header h1 {
     color: #ffffff;
-    font-size: 90px;
+    font-size: 5.625rem;
     font-weight: 700;
     line-height: .75;
     margin-top: 330px;
@@ -310,7 +309,7 @@ header .header-content .scroll {
 
 .gallery .gallery-text h1 {
     color: #262626;
-    font-size: 90px;
+    font-size: 5.625rem;
     font-weight: 700;
     line-height: .75;
     margin-bottom: 40px;
@@ -445,7 +444,8 @@ header .header-content .scroll {
 }
 
 .subscribe .subscribe-content form input {
-    width: 570px;
+    max-width: 570px;
+    width: 100%;
     height: 55px;
     box-sizing: border-box;
     border: 1px solid #262626;
@@ -488,7 +488,8 @@ header .header-content .scroll {
 
 .blog .blog-content {
     margin: 0 auto;
-    width: 570px;
+    max-width: 570px;
+    width: 90%;
     text-align: center;
     padding-top: 101px;
     padding-bottom: 44px;
@@ -496,7 +497,7 @@ header .header-content .scroll {
 
 .blog .blog-content h1 {
     color: #ffffff;
-    font-size: 90px;
+    font-size: 5.625rem;
     font-weight: 700;
     line-height: .75;
     padding-bottom: 42px;
@@ -504,9 +505,9 @@ header .header-content .scroll {
 
 .blog .blog-content p {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 300;
-    line-height: 25px;
+    line-height: 1.47;
 }
 
 .blog .blog-examples {
@@ -548,7 +549,7 @@ header .header-content .scroll {
     background-color: #262626;
     opacity: 0.5;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 30px;
     text-align: center;
@@ -556,7 +557,7 @@ header .header-content .scroll {
 
 .blog .blog-examples .blog-calendar span {
     line-height: 15px;
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -564,12 +565,12 @@ header .header-content .scroll {
 .blog .blog-examples h2 {
     line-height: 1.2;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 115px 0 17px 20px;
 }
 
 .blog .blog-examples p {
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 300;
     padding-left: 20px;
 }
@@ -616,7 +617,7 @@ header .header-content .scroll {
 
 .contact .contact-text h1 {
     color: #262626;
-    font-size: 90px;
+    font-size: 5.625rem;
     font-weight: 700;
     line-height: .75;
     padding-bottom: 42px;
@@ -637,11 +638,13 @@ header .header-content .scroll {
 }
 
 .contact .contact-form form {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 
 .contact .contact-form form p {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: 50px;
     background-color: #00c4c4;
     box-sizing: border-box;
@@ -655,7 +658,8 @@ header .header-content .scroll {
 }
 
 .contact .contact-form form input {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: 50px;
     background-color: #00c4c4;
     box-sizing: border-box;
@@ -672,7 +676,8 @@ header .header-content .scroll {
 }
 
 .contact .contact-form form textarea {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: 250px;
     background-color: #00c4c4;
     box-sizing: border-box;
@@ -688,7 +693,8 @@ header .header-content .scroll {
 }
 
 .contact .contact-form .contact-info {
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
     padding-left: 30px;
     padding-right: 180px;
 }
@@ -772,6 +778,10 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+    header .header-content nav ul {
+        display: none;
+    }
+
     header .header-content .header-text {
         width: 100%;
         margin: 0 auto;
@@ -825,10 +835,6 @@ body {
         margin: 30px 0 0 0;
     }
 
-    .subscribe .subscribe-content p {
-        text-shadow: white 1px 1px 0, white -1px -1px 0,  white -1px 1px 0, white 1px -1px 0;
-    }
-
     .blog .blog-examples {
         grid-gap: 10px;
     }
@@ -858,6 +864,119 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    header .header-content .header-text .more-button {
+        margin: 0 auto;
+    }
+
+    header .header-content .header-text h1 {
+        text-align: center;
+    }
+
+    .about-us .about-us-container {
+        flex-direction: column-reverse;
+    }
+
+    .about-us .about-us-container .about-us-photo {
+        height: 400px;
+        width: 90%;
+        margin-top: 0;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .about-us .about-us-container .about-us-content {
+        padding-top: 80px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-us .about-us-container .about-us-content h1 {
+        text-align: center;
+    }
+
+    .gallery {
+        height: 1536px;
+    }
+
+    .gallery .gallery-images {
+        grid-template-rows: 400px 260px 260px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery .gallery-images .gallery-img1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+    }
+
+    .gallery .gallery-images .gallery-img2,
+      .gallery .gallery-images .gallery-img4 {
+        grid-column: 1 / span 1;
+    }
+
+    .gallery .gallery-images .gallery-img3,
+      .gallery .gallery-images .gallery-img5 {
+        grid-column: 2 / span 1;
+    }
+
+    .blog {
+        height: 1400px;
+    }
+
+    .blog .blog-content {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .blog .blog-examples {
+        grid-template-rows: repeat(3, 310px);
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        max-width: 310px;
+    }
+
+    footer ul {
+        justify-content: center;
+    }
+
+    footer ul li:not([class="footer-logo"]) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header .header-content .header-text {
+        padding-top: 250px;
+    }
+
+    .about-us .about-us-container .about-us-content h1 {
+        font-size: 3rem;
+    }
+
+    .services .services-container .services-list ul li span {
+        border: none;
+    }
+
+    .services .services-container .services-header h1 {
+        font-size: 3rem;
+    }
+
+    .gallery .gallery-text h1 {
+        font-size: 3rem;
+    }
+
+    .gallery .gallery-images {
+        grid-template-rows: repeat(5, 150px);
+        grid-template-columns: 1fr;
+    }
+
+    .gallery .gallery-images .gallery-img1,
+    .gallery .gallery-images .gallery-img2,
+    .gallery .gallery-images .gallery-img3,
+    .gallery .gallery-images .gallery-img4,
+    .gallery .gallery-images .gallery-img5 {
+        grid-column: 1 / span 1;
+    }
+
     body {
         color: red;
     }
@@ -868,19 +987,5 @@ body {
 
     .blog {
         background-color: red;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    body {
-        color: blue;
-    }
-
-    .about-us {
-        background-color: blue;
-    }
-
-    .blog {
-        background-color: blue;
     }
 }

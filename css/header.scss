@@ -55,9 +55,8 @@ header {
         }
 
         .header-text {
-            position: absolute;
-            width: 370px;
-            margin-top: 370px;
+            max-width: 370px;
+            padding-top: 370px;
             
             h1 {
                 font-size: 60px;
@@ -83,7 +82,7 @@ header {
             position: absolute;
             width: 100%;
             height: 40px;
-            margin-top: 890px;
+            padding-top: 290px;
             justify-content: center;
         }
     }

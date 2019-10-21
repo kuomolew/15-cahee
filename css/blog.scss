@@ -24,6 +24,7 @@
 
     .blog-examples {
         max-width: 1500 - 165*2px;
+        width: 90%;
         display: grid;
         margin: 0 auto;
         grid-template-rows: 310px;
@@ -74,7 +75,7 @@
         }
 
         h2 {
-            line-height: 25px;
+            line-height: 1.2;
             font-weight: 700;
             font-size: 20px;
             padding: 115px 0 17px 20px;

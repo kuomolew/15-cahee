@@ -29,10 +29,39 @@
 
 @media screen and (max-width: 992px) {
 
-    header .header-content nav ul {
-        //переделать в бургер!!!!!!!!!!!!!1
-        display: none;
-    }
+    header .header-content nav {
+        ul {
+            display: none;
+            flex-direction: column;
+            width: 200px;
+
+            li {
+                font-size: 20px;
+                line-height: 40px;
+                border-top: none;
+
+                a:hover {
+                    text-decoration: underline;
+                    text-decoration-color: #ff6033;
+                }
+            }
+
+            li:hover {
+                // border-top: 3px #ff6033 solid;
+                border-top: none;
+            }
+        }
+
+        label {
+            display: block;
+            position: absolute;
+            right: 0;
+        }
+
+        #nav-trigger:checked~ul {
+            display: flex;
+        }
+    } 
 
     header .header-content .header-text {
         width: 100%;

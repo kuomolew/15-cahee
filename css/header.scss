@@ -34,6 +34,22 @@ header {
                 padding-top: 5px;
             }
 
+            #nav-trigger {
+                display: none;
+            }
+
+            label {
+                display: none;
+                width: 42px;
+                height: 42px;
+                background: url('../img/menu.svg');
+                background-position: center;
+                background-size: cover;
+                border: none;
+                outline: none;
+                float: right;
+            }
+
             ul {
                 display: flex;
                 justify-content: space-between;

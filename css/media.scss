@@ -29,10 +29,38 @@
 
 @media screen and (max-width: 992px) {
 
-    header .header-content nav ul {
-        //переделать в бургер!!!!!!!!!!!!!1
-        display: none;
-    }
+    header .header-content nav {
+        ul {
+            display: none;
+            flex-direction: column;
+            width: 200px;
+
+            li {
+                font-size: 20px;
+                line-height: 40px;
+                border-top: none;
+
+                a:hover {
+                    text-decoration: underline;
+                    text-decoration-color: #ff6033;
+                }
+            }
+
+            li:hover {
+                border-top: none;
+            }
+        }
+
+        label {
+            display: block;
+            position: absolute;
+            right: 0;
+        }
+
+        #nav-trigger:checked~ul {
+            display: flex;
+        }
+    } 
 
     header .header-content .header-text {
         width: 100%;
@@ -203,11 +231,42 @@
         li:not([class="footer-logo"]) {
             display: none;
         }
-    } 
+    }
 
 }
 
 @media screen and (max-width: 576px) {
+    header .header-content nav {
+        ul {
+            display: none;
+            flex-direction: column;
+            max-width: 550px;
+            width: 100%;
+            margin-top: 70px;
+            position: absolute;
+
+            li {
+                text-align: center;
+                font-size: 40px;
+                line-height: 80px;
+                font-weight: 900;
+                // background-color: rgba($color: #ff6033, $alpha: .9);
+                background-color: rgba($color: $text-color-dark, $alpha: .9);
+                margin-top: 10px;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    color: $text-color-light;
+                }
+
+                a:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    } 
+
     header .header-content .header-text {
         padding-top: 250px;
     }
@@ -227,12 +286,16 @@
     
     .gallery {
 
-        .gallery-text h1 {
+        .gallery-text {
+            padding-top: 50px;
+
+            h1 {
             font-size: 3rem;
+            }
         }
 
         .gallery-images {
-            grid-template-rows: repeat(5, 150px);
+            grid-template-rows: repeat(5, 185px);
             grid-template-columns: 1fr;
 
             .gallery-img1,
@@ -251,7 +314,7 @@
     }
 
     .blog {
-        height: 1550px;
+        height: 1500px;
 
     }
 
@@ -264,7 +327,6 @@
             padding-left: 0;
         }
     }
-    
-    
+
 }
 

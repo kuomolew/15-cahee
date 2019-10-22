@@ -69,7 +69,11 @@ header .header-content {
 
 header .header-content nav {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
     height: 30px;
@@ -107,7 +111,11 @@ header .header-content nav label {
 }
 
 header .header-content nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 557px;
 }
@@ -148,6 +156,7 @@ header .header-content .header-text p {
 header .header-content .header-text .more-button {
     width: 200px;
     height: 55px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background-color: #ff6033;
     font-size: 20px;
@@ -162,10 +171,14 @@ header .header-content .header-text .more-button a {
 }
 
 header .header-content .scroll {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: 40px;
     padding-top: 290px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -180,7 +193,11 @@ header .header-content .scroll {
     width: 80%;
     height: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -228,7 +245,11 @@ header .header-content .scroll {
     height: 100%;
     margin: 0 auto;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -237,7 +258,12 @@ header .header-content .scroll {
 }
 
 .services .services-container .services-list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-top: 180px;
     margin-left: 100px;
@@ -246,6 +272,7 @@ header .header-content .scroll {
 .services .services-container .services-list ul li {
     width: 83%;
     height: 100px;
+    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     background-color: #ffffff;
     margin-bottom: 20px;
@@ -255,10 +282,16 @@ header .header-content .scroll {
 }
 
 .services .services-container .services-list ul li span {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 75%;
     height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
     border-right: 1px solid #9d9d9d;
@@ -370,6 +403,7 @@ header .header-content .scroll {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -378,6 +412,7 @@ header .header-content .scroll {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -386,6 +421,7 @@ header .header-content .scroll {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -394,6 +430,7 @@ header .header-content .scroll {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -402,6 +439,7 @@ header .header-content .scroll {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -409,6 +447,7 @@ header .header-content .scroll {
     margin: 50px auto 0 auto;
     width: 200px;
     height: 55px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background-color: #5585a2;
     font-size: 20px;
@@ -456,6 +495,8 @@ header .header-content .scroll {
 }
 
 .subscribe .subscribe-content form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -463,9 +504,42 @@ header .header-content .scroll {
     max-width: 570px;
     width: 100%;
     height: 55px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid #262626;
     padding-left: 15px;
+}
+
+.subscribe .subscribe-content form input::-webkit-input-placeholder {
+    opacity: 0.5;
+    color: #262626;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.subscribe .subscribe-content form input::-moz-placeholder {
+    opacity: 0.5;
+    color: #262626;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.subscribe .subscribe-content form input:-ms-input-placeholder {
+    opacity: 0.5;
+    color: #262626;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.subscribe .subscribe-content form input::-ms-input-placeholder {
+    opacity: 0.5;
+    color: #262626;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
 }
 
 .subscribe .subscribe-content form input::placeholder {
@@ -480,6 +554,7 @@ header .header-content .scroll {
     border: none;
     width: 200px;
     height: 55px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background-color: #96b92c;
     font-size: 20px;
@@ -600,6 +675,7 @@ header .header-content .scroll {
     margin: 50px auto 0 auto;
     width: 200px;
     height: 55px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background-color: #f72b3b;
     font-size: 20px;
@@ -650,7 +726,11 @@ header .header-content .scroll {
     max-width: 1170px;
     width: 80%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -664,6 +744,7 @@ header .header-content .scroll {
     width: 100%;
     height: 50px;
     background-color: #00c4c4;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-left: 5px solid #355b82;
     font-size: 15px;
@@ -679,11 +760,36 @@ header .header-content .scroll {
     width: 100%;
     height: 50px;
     background-color: #00c4c4;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin-bottom: 15px;
     padding-left: 20px;
     opacity: 0.5;
     border: none;
+}
+
+.contact .contact-form form input::-webkit-input-placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.contact .contact-form form input::-moz-placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.contact .contact-form form input:-ms-input-placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.contact .contact-form form input::-ms-input-placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
 }
 
 .contact .contact-form form input::placeholder {
@@ -697,10 +803,35 @@ header .header-content .scroll {
     width: 100%;
     height: 250px;
     background-color: #00c4c4;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 18px 0 0 20px;
     opacity: 0.5;
     border: none;
+}
+
+.contact .contact-form form textarea::-webkit-input-placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.contact .contact-form form textarea::-moz-placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.contact .contact-form form textarea:-ms-input-placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.contact .contact-form form textarea::-ms-input-placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
 }
 
 .contact .contact-form form textarea::placeholder {
@@ -739,16 +870,25 @@ footer {
 footer ul {
     max-width: 1172px;
     width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     color: #b9b9b9;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     line-height: 90px;
 }
 
 footer ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-line-pack: center;
     align-content: center;
 }
 
@@ -797,6 +937,9 @@ body {
 @media screen and (max-width: 992px) {
     header .header-content nav ul {
         display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: 200px;
     }
@@ -809,6 +952,7 @@ body {
 
     header .header-content nav ul li a:hover {
         text-decoration: underline;
+        -webkit-text-decoration-color: #ff6033;
         text-decoration-color: #ff6033;
     }
 
@@ -823,6 +967,8 @@ body {
     }
 
     header .header-content nav #nav-trigger:checked ~ ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -836,6 +982,9 @@ body {
     }
 
     .services .services-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
@@ -872,6 +1021,9 @@ body {
     }
 
     .subscribe .subscribe-content form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -892,6 +1044,9 @@ body {
     }
 
     .contact .contact-form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -917,6 +1072,9 @@ body {
     }
 
     .about-us .about-us-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
@@ -979,6 +1137,8 @@ body {
     }
 
     footer ul {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -990,6 +1150,9 @@ body {
 @media screen and (max-width: 576px) {
     header .header-content nav ul {
         display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         max-width: 550px;
         width: 100%;

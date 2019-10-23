@@ -513,41 +513,36 @@ header .header-content .scroll {
 .subscribe .subscribe-content form input::-webkit-input-placeholder {
     opacity: 0.5;
     color: #262626;
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
-    line-height: 27px;
 }
 
 .subscribe .subscribe-content form input::-moz-placeholder {
     opacity: 0.5;
     color: #262626;
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
-    line-height: 27px;
 }
 
 .subscribe .subscribe-content form input:-ms-input-placeholder {
     opacity: 0.5;
     color: #262626;
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
-    line-height: 27px;
 }
 
 .subscribe .subscribe-content form input::-ms-input-placeholder {
     opacity: 0.5;
     color: #262626;
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
-    line-height: 27px;
 }
 
 .subscribe .subscribe-content form input::placeholder {
     opacity: 0.5;
     color: #262626;
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
-    line-height: 27px;
 }
 
 .subscribe .subscribe-content form button {
@@ -747,7 +742,7 @@ header .header-content .scroll {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-left: 5px solid #355b82;
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 700;
     line-height: 50px;
     padding-left: 15px;
@@ -769,31 +764,31 @@ header .header-content .scroll {
 }
 
 .contact .contact-form form input::-webkit-input-placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }
 
 .contact .contact-form form input::-moz-placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }
 
 .contact .contact-form form input:-ms-input-placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }
 
 .contact .contact-form form input::-ms-input-placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }
 
 .contact .contact-form form input::placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }
@@ -811,31 +806,31 @@ header .header-content .scroll {
 }
 
 .contact .contact-form form textarea::-webkit-input-placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }
 
 .contact .contact-form form textarea::-moz-placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }
 
 .contact .contact-form form textarea:-ms-input-placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }
 
 .contact .contact-form form textarea::-ms-input-placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }
 
 .contact .contact-form form textarea::placeholder {
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 300;
     color: #ffffff;
 }

@@ -45,7 +45,7 @@
                 background-color: $background-color-contact-form;
                 box-sizing: border-box;
                 border-left: 5px solid #355b82;
-                font-size: 15px;
+                font-size: .75rem;
                 font-weight: 700;
                 line-height: 50px;
                 padding-left: 15px;
@@ -66,7 +66,7 @@
             }
 
             input::placeholder {
-                font-size: 15px;
+                font-size: .75rem;
                 font-weight: 300;
                 color: $text-color-light;
             }
@@ -83,7 +83,7 @@
             }
 
             textarea::placeholder {
-                font-size: 15px;
+                font-size: .75rem;
                 font-weight: 300;
                 color: $text-color-light;
             }
